@@ -1,0 +1,65 @@
+body {
+    font-size: 15pt;
+}
+ .my-name{
+   text-align: center;
+ }
+ .my-name img{
+   width: 300px;
+ }
+ 
+  img{
+    width: 10%;
+  }
+  .bg{
+    width: 100px;
+  }
+  
+  .my-banner{
+    background: url(https://i.imgur.com/WGjjceA.jpg)no-repeat center;
+    padding: 20px 0;
+    background-size: cover; 
+    overflow: hidden;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .img1{
+    animation: birds 6s linear infinite;
+   
+ }
+ 
+ @keyframes birds{
+   0%{
+     transform: translateX(380px);
+     opacity: .7;
+   }
+    50%{
+     opacity: 1;
+   }
+    100% {
+      transform: translateX(-30px);
+      opacity: .5;
+    }
+ }
+ 
+  .img2{
+   animation: bird 6s linear infinite;
+ 
+ }
+ 
+ @keyframes bird{
+   0%{
+     transform: translateX(-60px);
+     opacity: .7;
+   }
+    50%{
+     opacity: 1;
+   }
+    100% {
+      transform: translateX(420px);
+      opacity: .5;
+    }
+ }
